@@ -26,34 +26,34 @@ npm-debug.log
 
 
 # AoT generated files
-ngx-vis.d.ts
-ngx-vis.js
-ngx-vis.js.map
-ngx-vis.metadata.json
-ngx-vis.ngfactory.ts
-factories
-/**/*.ngfactory.ts
-*.ngfactory.*
-*.metadata.json
-*.ngsummary.json
-components/*.d.ts
-components/*.js
-components/*.js.map
-components/*.ngfactory.*
-components/*.metadata.json
-components/*.ngsummary.json
-components/network/*.d.ts
-components/network/*.js
-components/network/*.js.map
-components/network/*.ngfactory.*
-components/network/*.metadata.json
-components/network/*.ngsummary.json
-components/timeline/*.d.ts
-components/timeline/*.js
-components/timeline/*.js.map
-components/timeline/*.ngfactory.*
-components/timeline/*.metadata.json
-components/timeline/*.ngsummary.json
+# ngx-vis.d.ts
+# ngx-vis.js
+# ngx-vis.js.map
+# ngx-vis.metadata.json
+# ngx-vis.ngfactory.ts
+# factories
+# /**/*.ngfactory.ts
+# *.ngfactory.*
+# *.metadata.json
+# *.ngsummary.json
+# components/*.d.ts
+# components/*.js
+# components/*.js.map
+# components/*.ngfactory.*
+# components/*.metadata.json
+# components/*.ngsummary.json
+# components/network/*.d.ts
+# components/network/*.js
+# components/network/*.js.map
+# components/network/*.ngfactory.*
+# components/network/*.metadata.json
+# components/network/*.ngsummary.json
+# components/timeline/*.d.ts
+# components/timeline/*.js
+# components/timeline/*.js.map
+# components/timeline/*.ngfactory.*
+# components/timeline/*.metadata.json
+# components/timeline/*.ngsummary.json
 
 
 yarn.lock
