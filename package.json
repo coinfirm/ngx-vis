@@ -1,5 +1,5 @@
 {
-    "name": "ngx-vis",
+    "name": "@coinfirm/ngx-vis",
     "version": "1.0.1",
     "main": "ngx-vis",
     "types": "ngx-vis.d.ts",
@@ -34,7 +34,8 @@
         "release:patch": "npm run release:pre && npm version patch && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
         "version-and-push": "git push origin && git push origin --tags && npm run publish-and-merge",
         "publish-and-merge": "git checkout master && git merge develop && git push && git checkout develop && npm publish",
-        "prepublish": "npm run build"
+        "prepublish": "npm run build",
+        "preinstall": "npm run build"
     },
     "dependencies": {
         "vis": "4.21.0",
