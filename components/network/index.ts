@@ -9,7 +9,7 @@ export type VisMoveToOptions = Vis.MoveToOptions;
 export interface VisClusterOptions extends Vis.ClusterOptions { }
 export interface VisOpenClusterOptions extends Vis.OpenClusterOptions { }
 export interface VisNetworkData extends Vis.Data { }
-export interface VisNode extends Vis.Node { title?: string; }
+export interface VisNode extends Vis.Node { title?: string; physics?: string }
 export interface VisEdge extends Vis.Edge { }
 export interface VisNodeSelectionOptions extends Vis.DataSelectionOptions<VisNode> { }
 export interface VisEdgeSelectionOptions extends Vis.DataSelectionOptions<VisEdge> { }
